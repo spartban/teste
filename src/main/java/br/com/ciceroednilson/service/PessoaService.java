@@ -16,7 +16,8 @@ import org.springframework.web.bind.annotation.RestController;
 import br.com.ciceroednilson.model.PessoaModel;
 import br.com.ciceroednilson.model.ResponseModel;
 import br.com.ciceroednilson.repository.PessoaRepository;
- 
+
+@CrossOrigin(origins = "*", maxAge = 3600) 
 @RestController
 @RequestMapping("/service")
 public class PessoaService {
