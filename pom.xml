@@ -10,8 +10,7 @@
 	</parent>
 	<groupId>br.com.ciceroednilson</groupId>
 	<artifactId>pessoa-service</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<version>0.0.1-SNAPSHOT</version>	
 	<name>pessoa-service</name>
 	<description>Api Res para tratar dados de pessoa</description>
 
